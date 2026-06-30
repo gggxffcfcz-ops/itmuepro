@@ -14,7 +14,7 @@ data class User(
     val trialStartDate: Long = 0L
 ) {
     fun isManagerOrAdmin(): Boolean {
-        return role.equals("Admin", ignoreCase = true) || role.equals("Manager", ignoreCase = true) || username == "admin" || username == "niwat.T"
+        return role.equals("Admin", ignoreCase = true) || role.equals("Manager", ignoreCase = true) || username == "admin" || username == "niwat.T" || username == "niwat"
     }
 
     fun isSupervisor(): Boolean {

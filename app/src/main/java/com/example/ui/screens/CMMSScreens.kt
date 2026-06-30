@@ -310,7 +310,7 @@ fun LoginScreen(viewModel: CMMSViewModel) {
 
                 // Show default accounts info for testing
                 Text(
-                    text = "บัญชีทดลองใช้ (Admin):\n• admin / PTP@min_2026\n• niwat.T / 123456",
+                    text = "บัญชีทดลองใช้ (Admin):\n• admin / PTP@min_2026\n• niwat / 123456 (หรือ niwat.T)",
                     style = MaterialTheme.typography.bodySmall.copy(
                         color = Color.DarkGray,
                         lineHeight = 16.sp,

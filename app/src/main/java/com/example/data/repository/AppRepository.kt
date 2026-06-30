@@ -52,6 +52,7 @@ class AppRepository(
             // 1. Insert default admin users
             userDao.insertUser(User(username = "admin", password = "PTP@min_2026", fullName = "ผู้ดูแลระบบสูงสุด (System Admin)", role = "Admin"))
             userDao.insertUser(User(username = "niwat.T", password = "123456", fullName = "คุณนิวัฒน์ ทองแท้ (Factory Manager)", role = "Admin"))
+            userDao.insertUser(User(username = "niwat", password = "123456", fullName = "นิวัฒน์ (Admin)", role = "Admin"))
             userDao.insertUser(User(username = "somchai.m", password = "123456", fullName = "สมชาย มีดี (Technician Lead)", role = "Technician"))
             userDao.insertUser(User(username = "operator1", password = "123456", fullName = "วิชัย รักดี (Operator Line A)", role = "Operator"))
 
