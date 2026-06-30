@@ -1,0 +1,6 @@
+{
+  "name": "Industrial CMMS",
+  "description": "ระบบบริหารจัดการงานซ่อมบำรุงเครื่องจักรสำหรับโรงงานอุตสาหกรรม (Industrial CMMS) ครอบคลุมระบบแจ้งซ่อม ระบบจัดการสินทรัพย์ การบำรุงรักษาเชิงป้องกัน และวิเคราะห์ค่าใช้จ่ายอะไหล่",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
